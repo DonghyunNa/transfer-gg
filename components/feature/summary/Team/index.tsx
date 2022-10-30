@@ -26,7 +26,7 @@ function TeamSummary({
     >
       <Header
         teamName={teamName}
-        teamId={teamId}
+        teamId={teamNameShort}
         firstColor={firstColor}
         secondColor={secondColor}
       />
