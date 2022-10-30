@@ -60,11 +60,7 @@ function TransferCard() {
               <span className='material-icons'>arrow_forward</span>
             </div>
 
-            <DynamicTeamImage
-              src={transfer.after.toLowerCase()}
-              className='w-12 h-12 mx-1'
-              alt={transfer.lane}
-            />
+            <DynamicTeamImage src={transfer.after} className='w-12 h-12 mx-1' alt={transfer.lane} />
           </div>
         );
       })}

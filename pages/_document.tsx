@@ -11,6 +11,7 @@ export default class RootDocument extends Document {
             rel='stylesheet'
           />
           <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet' />
+          <title>겨울엔 역시 스토브리그</title>
         </Head>
         <body>
           <Main />
